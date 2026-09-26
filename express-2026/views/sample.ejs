@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Username</td>
+          <td>Age</td>
+          <td>City</td>
+          <td>Profession</td>
+          <td>isActive</td>
+          <td>Operation</td>
+        </tr>
+      </thead>
+      <tbody>
+        
+            <% result.forEach((user)=> {%>
+                <tr>
+                <td><%= user.id%></td>
+                <td><%= user.name%></td>
+                <td><%= user.age%></td>
+                <td><%= user.city%></td>
+                <td><%= user.profession%></td>
+                <td><%= user.isActive%></td>
+                <td><a href="ui/delete/<%= user._id%>">Delete</a></td>
+                <td><a href="ui/student/<%= user._id%>">Update</a></td>
+                </tr>
+                <%})%>
+        
+      </tbody>
+    </table>
+  </body>
+</html>

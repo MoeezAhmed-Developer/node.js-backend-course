@@ -1,0 +1,12 @@
+{
+  "name": "express-sample-project",
+  "version": "1.0.0",
+  "description": "It's my sample project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "Muhammad MOeez",
+  "type": "module",
+  "license": "ISC"
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "poppins";
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #001542;
+        height: 60px;
+        padding: 0 100px;
+      }
+
+      nav .site-logo a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      nav .site-logo a span {
+        color: #02ff02;
+      }
+
+      .nav-left-side {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      nav ul li {
+        list-style: none;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+      }
+
+      nav ul li a span {
+        color: #02ff02;
+      }
+
+      .nav-left-side .profile-icon div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        background-color: #02ff02;
+        border-radius: 50%;
+        /* border: 1px solid #ccc; */
+        color: #001542;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="site-logo">
+          <a href="/">Lakhnawe <span>Optical</span></a>
+        </div>
+        <div class="nav-left-side">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li>
+              <a href="/"><span>Opticals</span></a>
+            </li>
+            <li><a href="/">Portfolio</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+
+          <div class="profile-icon">
+            <div>U</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>Hello World!</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+      laudantium obcaecati architecto soluta molestias? Beatae ducimus
+      temporibus dolore pariatur deleniti.
+    </p>
+    <a href="/about">Learn More</a>
+  </body>
+
+  <script src="script.js"></script>
+</html>

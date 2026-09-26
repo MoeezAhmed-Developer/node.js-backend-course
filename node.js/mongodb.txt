@@ -1,0 +1,2 @@
+for create database = use database
+for create collection = db.createCollection("collection-name")

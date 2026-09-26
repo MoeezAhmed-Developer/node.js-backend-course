@@ -1,0 +1,81 @@
+﻿berrybuild
+claude.ai
+cursor ai
+---
+
+my name is Moeez. = ich heiße Moeez.
+i am 19 years old. = ich bin 19 jahre alt.
+i am from Pakistan. = ich komme aus Pakistan.
+good = gut
+bad = schlecht
+book = buch
+bottle = flasche
+---
+
+german shadowing a1
+---
+
+Monday = Montag
+Tuesday = 
+Wednesday = 
+Thursday
+Friday
+Saturday
+Sunday
+---
+
+January
+Feburary
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+---
+
+tony clifton
+jim carry
+---
+
+Dreams without goals are just dream.
+---
+
+zurish
+oslo
+---
+
+Original Music:
+Modo Bierkamp
+lutz moller
+---
+
+nasdaq
+---
+
+const btn = document.querySelector("button");
+btn.addEventListner("click", () => {
+console.log("Hi");
+btn.innerText = "click";
+})
+---
+
+parito Principle
+---
+
+cuenca
+---
+
+English Vocabluaries:
+bunch
+dumb
+---
+
+nelson mandela
+who is nelson mandela?
+---
+

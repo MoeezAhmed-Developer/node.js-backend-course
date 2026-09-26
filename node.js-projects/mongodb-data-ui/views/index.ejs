@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Father Name</td>
+                <td>Class</td>
+                <td>Roll No.</td>
+                <td>Operation</td>
+                <td>Update</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            <%students.forEach((student)=> {%>
+                <tr>
+                    <td>
+                        <%= student.name%>
+                    </td>
+                    <td>
+                        <%= student.fname%>
+                    </td>
+                    <td>
+                        <%= student.class%>
+                    </td>
+                    <td>
+                        <%= student.rollNumber%>
+                    </td>
+                    <td>
+                        <a href="/delete/<%= student._id%>">Delete</a>
+                    </td>
+                    <td>
+                        <a href="/ui/update/<%= student._id%>">Update</a>
+                    </td>
+                </tr>
+                <%})%>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

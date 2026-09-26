@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "moeez",
+    "age": 19,
+    "city": "Karachi",
+    "profession": "Web Developer",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Areeba",
+    "age": 22,
+    "city": "Lahore",
+    "profession": "Graphic Designer",
+    "isActive": false
+  },
+  {
+    "id": 3,
+    "name": "Abdullah",
+    "age": 25,
+    "city": "Islamabad",
+    "profession": "Software Engineer",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "Shayan",
+    "age": 21,
+    "city": "Peshawar",
+    "profession": "Student",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Mustafa",
+    "age": 24,
+    "city": "Faisalabad",
+    "profession": "UI/UX Designer",
+    "isActive": false
+  },
+  {
+    "id": 6,
+    "name": "Eman",
+    "age": 20,
+    "city": "Multan",
+    "profession": "Content Writer",
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "name": "Wahab",
+    "age": 27,
+    "city": "Quetta",
+    "profession": "Digital Marketer",
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "name": "Farah",
+    "age": 23,
+    "city": "Hyderabad",
+    "profession": "Teacher",
+    "isActive": false
+  },
+  {
+    "id": 9,
+    "name": "Ali",
+    "age": 26,
+    "city": "Sialkot",
+    "profession": "Mobile App Developer",
+    "isActive": true
+  },
+  {
+    "id": 10,
+    "name": "Maryam",
+    "age": 22,
+    "city": "Rawalpindi",
+    "profession": "SEO Specialist",
+    "isActive": true
+  }
+]
